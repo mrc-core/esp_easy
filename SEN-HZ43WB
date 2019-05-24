@@ -1,0 +1,30 @@
+Product Name: Water Flow Sensor
+Material: Copper(Shell)
+Liquid Temperature: Not More Than 60C
+Start Flow Range: 1.5L/min
+Flow Range: 2-45L/min
+Working Voltage Range: DC4.5-18V
+Max Current: 10mA
+Maximum Water Pressure: 1.75MPa
+Connector: Male SM-3P Plug
+Cable Length: 35cm
+Size: 44mm x 32mm x 30mm(L*W*H)
+External Thread Diameter: G3/4 inch
+Tube Length: 44mm
+Color: Gold Tone
+Net Weight: 112g
+
+6. Instantaneous Flow Pulse Characteristic F=8.1 x Q(flow)-5 +/-10%
+7. The cumulative flow pulse conversion ratio 1L minute = 477 pulse (+/- 10%)
+
+On esp easy go to devices and add a new device
+Device: Generic - Pulse Counter
+Enabled: yes
+GPIO - Pulse: GPIO-14 (D5)
+Debounce Time (mSec): 0
+Counter Type: Delta/Total
+Mode: Rising
+Send to controler: yes
+IDX: ___
+Interval: 60
+On the Decimals we set the decimals to 3
